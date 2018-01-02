@@ -1,0 +1,19 @@
+{
+  "name": "bridging-gap-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyeverett1/bridging-gap-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amyeverett1/bridging-gap-design/issues"
+  },
+  "homepage": "https://github.com/amyeverett1/bridging-gap-design#readme"
+}
