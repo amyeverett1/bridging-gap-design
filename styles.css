@@ -59,8 +59,7 @@ header li {
 
 h1 {
     width: 390px;
-    height: 135px;
-    padding: 0px;
+    padding: 20px 0;
     position: absolute;
     left: 50%;
     margin-left: -191px;
@@ -126,8 +125,7 @@ p {
 @media only screen and (max-width : 920px) {
 h1 {
     width: 390px;
-    height: 135px;
-    padding: 0px;
+    padding: 20px 0;
     font-size: 2.5em;
     margin: 0 auto;
     left: 0;
@@ -135,6 +133,19 @@ h1 {
     }
     
 }
+
+/* Styles for tablets */
+@media only screen and (max-width : 510px) {
+    
+    .menu_right, .menu_left {
+        float: left;
+        text-align: left;
+        padding: 0px;
+        width: 40%;
+    }
+    
+}
+
 
 
 /* Styles for tablets */
@@ -146,6 +157,8 @@ h1 {
     position: absolute;
     left: 0;
     top: 30px;
+    clear: both;
+    width: 100%;
     }
     
     header {
@@ -162,11 +175,10 @@ h1 {
         width: 100%;
     }    
     
-.menu_right {
-    float: left;
-    text-align: left;
-    padding: 0 20px;
-}
-
+    .menu_right {
+        float: left;
+        text-align: left;
+        padding: 0 20px;
+    }
 
 }
