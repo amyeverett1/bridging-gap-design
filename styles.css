@@ -1,0 +1,123 @@
+html {
+    background-color: #f2f2f2;
+}
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    margin: 0;
+}
+
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: .16em;
+}
+
+header{
+    left: 0;
+    opacity: 1;
+    z-index: 4;
+    background: hsla(0,0%,100%,.9);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    top: 0;
+    text-align: center;
+    position: fixed;
+    color: #3b4140;
+    margin: 0;
+    padding: 35px 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1;
+    display: block;
+    width: 100%;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+.menu_right {
+    float: right;
+    text-align: right;
+    padding: 0 20px;
+}
+
+.menu_left {
+    float: left;
+    text-align: left;
+    padding: 0 20px;
+}
+
+
+h1 {
+    width: 390px;
+    height: 135px;
+    padding: 0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -191px;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+main {
+    float: left;
+}
+
+.image_box {
+    max-height: 600px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.image_box img {
+    width: 100%;
+}
+
+.intro {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.intro p {
+    text-align: center;
+}
+
+.intro h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin: 15px 0;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    text-align: left;
+    padding: 20px 50px 20px 50px;
+}
+
+.menu h2 {
+    margin: 50px 0 0 0;
+}
+
+.internal {
+    border-top: 7px solid #3b4140;
+}
