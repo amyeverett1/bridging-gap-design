@@ -39,21 +39,23 @@ header ul {
 }
 
 header li {
-    width: 20%;
+    width: 50%;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .menu_right {
     float: right;
     text-align: right;
     padding: 0 20px;
+    width: 25%;
 }
 
 .menu_left {
     float: left;
     text-align: left;
     padding: 0 20px;
+    width: 25%;
 }
 
 
