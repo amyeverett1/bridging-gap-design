@@ -135,13 +135,17 @@ h1 {
 }
 
 /* Styles for tablets */
-@media only screen and (max-width : 510px) {
+@media only screen and (max-width : 670px) {
     
     .menu_right, .menu_left {
         float: left;
         text-align: left;
         padding: 0px;
         width: 40%;
+    }
+    
+    header ul {
+        widthL 100%;
     }
     
 }
