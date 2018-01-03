@@ -26,7 +26,7 @@
 
   <main>
     <div class="image_box">
-      <img src="heading.jpg" alt="A selection of food">
+      <img src="images/heading.jpg" alt="A selection of food">
     </div>
 
     <div class="intro">
@@ -35,7 +35,7 @@
     </div>
 
     <div class="image_box internal">
-      <img src="menu.jpg" alt="A selection of breakfast foods">
+      <img src="images/menu.jpg" alt="A selection of breakfast foods">
     </div>
 
     <div class="menu">
