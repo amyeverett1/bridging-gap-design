@@ -1,203 +1,123 @@
-html {
-    background-color: #f2f2f2;
-}
-
-
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 19px;
-    margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  background-color: #f2f2f2;
 }
 
-
-h1, h2, h3 {
-    text-transform: uppercase;
-    letter-spacing: .16em;
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: .16em;
 }
-
-header{
-    left: 0;
-    opacity: 1;
-    z-index: 4;
-    background: hsla(0,0%,100%,.9);
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    top: 0;
-    text-align: center;
-    position: fixed;
-    color: #3b4140;
-    margin: 0;
-    padding: 35px 0;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 1;
-    display: block;
-    width: 100%;
-}
-
-header ul {
-    list-style: none;
-}
-
-header li {
-    width: 50%;
-    float: left;
-    padding: 20px 0;
-}
-
-.menu_right {
-    float: right;
-    text-align: right;
-    padding: 0 20px;
-    width: 25%;
-}
-
-.menu_left {
-    float: left;
-    text-align: left;
-    padding: 0 20px;
-    width: 25%;
-}
-
 
 h1 {
-    width: 390px;
-    padding: 0;
-    position: absolute;
-    left: 50%;
-    margin-left: -191px;
-    font-size: 3em;
-    margin-top: 0;
-}
-
-main {
-    float: left;
-}
-
-.image_box {
-    max-height: 600px;
-    overflow: hidden;
-    margin-bottom: 40px;
-    position: relative;
-}
-
-.image_box img {
-    width: 100%;
-}
-
-.intro {
-    width: 70%;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-
-.intro p {
-    text-align: center;
-}
-
-.intro h2 {
-    text-align: center;
+  font-size: 2.2em;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
-    font-size: 2em;
+  font-size: 1.4em;
+  margin: 50px 0 0 0;
 }
 
 p {
-    font-size: 1.5em;
-    line-height: 1.2em;
-    margin: 15px 0;
+  line-height: 1.2em;
 }
 
-.menu {
-    width: 70%;
-    float: left;
-    text-align: left;
-    padding: 20px 50px 20px 50px;
+header {
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: hsla(0,0%,100%,.9);
+  position: fixed;
+  padding: 28px 20px;
+  text-transform: uppercase;
+  width: 100%;
 }
 
-.menu h2 {
-    margin: 50px 0 0 0;
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8em;
+}
+
+nav {
+  padding: 0 70px 0 40px;
+}
+
+.image_box {
+  max-height: 500px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.image_box img {
+  width: 100%;
 }
 
 .internal {
-    border-top: 7px solid #3b4140;
+  border-top: 7px solid #3b4140;
 }
 
-/* Styles for tablets */
-@media only screen and (max-width : 920px) {
-h1 {
-    width: 390px;
-    padding: 0;
-    font-size: 2.5em;
-    margin: 0 auto;
-    left: 0;
-    position: relative;
-    }
-    
+.intro, .menu {
+  width: 70%;
+  padding: 20px 50px;
 }
 
-/* Styles for tablets */
-@media only screen and (max-width : 750px) {
-    
-    .menu_right, .menu_left {
-        float: left;
-        text-align: left;
-        padding: 0px;
-        width: 50%;
-    }
-    
-    header li {
-        width: 50%;
-        padding: 20px 0;
-        text-align: center;
-    }
-    
-    header ul {
-        width: 100%;
-        float: left;
-        margin: 0;
-        padding: 0 0 40px 0;
-    }
-    
+.intro {
+  margin: 0 auto;
+  text-align: center;
 }
 
+.menu {
+  float: left;
+  text-align: left;
+}
 
+/* Styles for mobile */
+@media only screen and (max-width : 800px) {
 
-/* Styles for tablets */
-@media only screen and (max-width : 450px) {
-h1 {
-    padding: 0;
-    font-size: 2em;
+  h1 {
     margin: 0 auto;
     position: absolute;
-    left: 0;
+    left: 30px;
     top: 30px;
     clear: both;
     width: 100%;
-    }
-    
-    header {
-        padding: 70px 0 0 0;
-    }
-    
-    header ul {
-        padding: 20px 0;
-    }
-    
-    header li {
-        width: 50%;
-        padding: 10px 0;
-        float: left;
-    }
-    
-    .menu_left, .menu_right {
-        width: 100%;
-    }    
-    
-    .menu_right {
-        float: left;
-        text-align: left;
-        padding: 0;
-    }
+  }
+
+  nav {
+    padding: 0 0 0 12px;
+  }
+
+  nav ul {
+    margin-top: 50px;
+    font-size: 0.8em;
+    justify-content: flex-start;
+  }
+
+  nav li {
+    padding-right: 25px;
+  }
+
+  .intro, .menu {
+    font-size: 0.8em;
+    width: 90%;
+    text-align: left;
+    margin: 0;
+    padding: 20px 30px;
+  }
 
 }
